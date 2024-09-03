@@ -1,10 +1,11 @@
 // Fase di preparazione
 
-// Variabili
-// Strutture dati
-// Funzioni
+const { createApp } = Vue;
 
-// Fase di gestione eventi
-// Fase di raccolta dati
-// Fase di elaborazione
-// Fase di produzione
+createApp({
+    data() {
+        return {
+            message: "Vue: Hello World!"
+        }
+    }
+}).mount("#app");
